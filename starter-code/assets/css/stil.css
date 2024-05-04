@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.header-link-div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-btn{
+    display: flex;
+    gap: 2px;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: rgb(96, 94, 94);
+    border-radius: 5px;
+
+}
+
+.links-btn:hover{
+    background-color: rgb(233, 221, 233);
+    color: rgb(219, 69, 219);
+
+
+}
+
+.profile-details-btn{
+    display: flex;
+    gap: 2px;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: rgb(96, 94, 94);
+    border-radius: 5px;
+
+}
+
+.profile-details-btn:hover{
+    background-color: rgb(233, 221, 233);
+    color: rgb(219, 69, 219);
+}
+
+.preview{
+    color: rgb(100, 38, 100);
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 7px 20px;
+}
+
+.preview:hover{
+    color: white;
+    background-color: rgb(160, 51, 160);
+}
+
+
+.conteiner{
+    display: flex;
+    padding: 30px;
+}
+.phone{
+    padding: 30px 100px;
+}
+
+.profile-upload{
+    margin-top: 100px;
+    h1{
+        font-size: 30px;
+        color: rgb(30, 28, 28);
+    }
+    p{
+
+        font-size: 14px;
+        color: rgb(181, 171, 171);
+        margin-bottom: 30px;
+    }
+}
+
+
+.user-info{
+    margin-top: 70px;
+    
+    input{
+        width: 350px;
+        height: 35px;
+    }
+}
+
+.kaydet{
+    margin-left: 1200px;
+    margin-right: 230px;
+    border-radius: 8px;
+    color: rgb(165, 100, 165);
+    border: 1px solid rgb(165, 100, 165);
+    cursor: pointer;
+}

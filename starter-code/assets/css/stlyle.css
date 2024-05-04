@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.upDiv{
+    background-color: mediumslateblue;
+    width: 100%;
+    height: 30vh;
+    border-radius: 0 0 50px 50px;
+    position: relative;
+
+}
+.upLinks{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0  auto 0 auto;
+    top: 10px;
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.upLinks button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+.backBtn{
+    background-color: white;
+    color: mediumslateblue;
+    border: 1px solid mediumslateblue;
+    cursor: pointer;
+}
+.shareBtn{
+    background-color: mediumslateblue;
+    color: white;
+    border: 0px solid transparent;
+    cursor: pointer;
+}
+.mainDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 60vh;
+    border: 0px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.profileDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 40%;
+    border-radius: 10px;
+}
+.profileDiv img{
+    width: 65px;
+    height: 65px;
+    margin: 10px 0;
+}
+.profileDiv p {
+    margin: 10px 0;
+}
+.profileMail{
+    opacity: 0.4;
+}
+.linksDiv{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.linksDiv button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+    width: 80%;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.linksDiv button div {
+    display: flex;
+    align-items: center;
+}
+.gitBtn{
+    background-color: black;
+    cursor: pointer;
+}
+.youtubeBtn{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.linkedInBtn{
+    background-color: rgb(10, 102, 194);
+    cursor: pointer;
+}
+.icons{
+    fill: white;
+}
+
+
+
